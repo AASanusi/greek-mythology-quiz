@@ -85,3 +85,8 @@ a {
 #highscore-button:hover {
     box-shadow: 0 0.5rem 1.4rem 0 rgba(94, 156, 194, 0.8);
 }
+
+.fa-ranking-star {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
