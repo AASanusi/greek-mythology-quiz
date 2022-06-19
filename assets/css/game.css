@@ -44,3 +44,21 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #008000;
+    margin-top: .5rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
