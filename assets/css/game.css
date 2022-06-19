@@ -20,3 +20,7 @@ body {
     box-shadow: 0 0.5rem 1.4rem 0 rgba(0, 160, 244, 0.8);
     transform: scale(1.1);
 }
+
+.answer-prefix {
+    padding: 2rem 2.5rem;
+}
