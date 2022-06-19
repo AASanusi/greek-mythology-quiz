@@ -53,3 +53,10 @@ a {
     margin: 0 auto;
     padding: 2rem;
 }
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
