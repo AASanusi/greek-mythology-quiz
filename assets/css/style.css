@@ -14,18 +14,41 @@ body {
 
 /* headings */
 
-h1, h2 {
+h1 {
     font-family: Arvo, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #00A0F4;
 }
 
+h2 {
+    font-family: Arvo, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    color: #00A0F4;
+}
+
 #header {
     text-align: center;
     font-size: 280%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #00A0F4;
+    color: white;
 }
 
 a {
     text-decoration: none;
+}
+
+.container-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
 }
