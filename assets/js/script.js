@@ -21,39 +21,39 @@ let availableQuestions = [];
 let questions = [
     {
         question: "Who was the ruler of Olympus?",
-        selection1: "Hades",
-        selection2: "Apollo",
-        selection3: "Zeus",
-        selection4: "Hermes",
+        choice1: "Hades",
+        choice2: "Apollo",
+        choice3: "Zeus",
+        choice4: "Hermes",
         answer: 3,
     },
     {
         question: "Who was the goddess of beauty and love?",
-        selection1: "Hera",
-        selection2: "Aphrodite",
-        selection3: "Demeter",
-        selection4: "Persephone",
+        choice1: "Hera",
+        choice2: "Aphrodite",
+        choice3: "Demeter",
+        choice4: "Persephone",
         answer: 2,
     }, {
         question: "Which demi-god defeated Medusa?",
-        selection1: "Theseus",
-        selection2: "Hercules",
-        selection3: "Dionysus",
-        selection4: "Perseus",
+        choice1: "Theseus",
+        choice2: "Hercules",
+        choice3: "Dionysus",
+        choice4: "Perseus",
         answer: 4,
     }, {
         question: "How many years did the war between the Olympians and Titans last for?",
-        selection1: "27 years",
-        selection2: "12 years",
-        selection3: "62 years",
-        selection4: "10 years",
+        choice1: "27 years",
+        choice2: "12 years",
+        choice3: "62 years",
+        choice4: "10 years",
         answer: 4,
     }, {
         question: "What was the name of hades three-headed dog called?",
-        selection1: "Cerberus",
-        selection2: "Chimera",
-        selection3: "Hecatoncheires",
-        selection4: "Nemean Lion",
+        choice1: "Cerberus",
+        choice2: "Chimera",
+        choice3: "Hecatoncheires",
+        choice4: "Nemean Lion",
         answer: 1,
     }
 ]
@@ -121,6 +121,14 @@ selections.forEach(choice => {
 
         setTimeout(() => {
             selectedSelection.parentElement.classList.remove(classToApply);
-        })
-    })
-})
+            getNewQuestion();
+        }, 1000);
+    });
+});
+
+incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score;
+};
+
+startGame();
