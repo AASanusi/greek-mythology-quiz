@@ -57,7 +57,10 @@ const maxQuestions = 5;
 
 // How to write a function taken from W3schools
 
-// Function that keeps score, progression and sets new questions
+/* Function that starts the game
+ * keeps track of scores and questions
+ * and sets new one
+ */
 
 function startGame() {
     questionCounter = 0;
@@ -65,3 +68,31 @@ function startGame() {
     availableQuestions = [...questions];
     getNewQuestion();
 }
+
+/* To keep track of the scores
+ * and to increase displaybar when
+ * moving throught the questions
+ */
+
+getNewQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
+        localStorage.setItem("mostRecentScore", score);
+        return window.location.assign("/end.html");
+    }
+
+    questionCounter++
+    displayText.innerText = `Question ${questionCounter} of ${maxQuestions}`;
+    displayBarProgress.style.width = `${(questionCounter/maxQuestions) * 100}%`;
+
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
+
+    answers.forEach(choice => {
+        const number = choice.dataset["number"];
+        choice.innerText = currentQuestion["choice" + number];
+    });
+
+    availableQuestions.splice(questionsIndex, 1);
+    acceptingAnswers = true;
+};
