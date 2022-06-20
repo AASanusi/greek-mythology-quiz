@@ -3,20 +3,6 @@
 * from Brian Design (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 */
 
-// const variables
-const question = document.getElementById("question");
-const selections = Array.from(document.getElementsByClassName("selection-text"));
-const displayText = document.getElementById("displayText");
-const scoreText = document.getElementById("score");
-const displayBarProgress = document.getElementById("displayBarProgress");
-
-// let variables for running the game
-let currentQuestion = {};
-let acceptingAnswers = true;
-let score = 0;
-let questionCounter = 0;
-let availableQuestions = [];
-
 // Questions and answers for the quiz
 let questions = [
     {
@@ -57,6 +43,21 @@ let questions = [
         answer: 1,
     }
 ]
+
+// const variables
+const question = document.getElementById("question");
+const selections = Array.from(document.getElementsByClassName("selection-text"));
+const displayText = document.getElementById("displayText");
+const scoreText = document.getElementById("score");
+const displayBarProgress = document.getElementById("displayBarProgress");
+
+// let variables for running the game
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
+
 
 const scorePoints = 10;
 const maxQuestions = 5;
