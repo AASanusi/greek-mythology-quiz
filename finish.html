@@ -14,8 +14,13 @@
 </head>
 
 <body>
+    <header>
+        <a href="index.html">
+            <h1 id="header">Greek Mythology Quiz</h1>
+        </a>
+    </header>
     <section>
-        <div class="finish-container">
+        <div class="container">
             <div id="finish" class="flexy">
                 <h2 id="totalScore">0</h2>
 
@@ -27,8 +32,10 @@
                     </label>
                     <input type="text" name="name" id="name" placeholder="Enter your name here!">
                     <button class="button" id="saveScoreButton" type="submit" onclick="saveTotalScore(event)"
-                        disabled></button>
+                        disabled>Save</button>
                 </form>
+                <a href="game.html" class="button">Restart!<i class="fa-solid fa-rotate-right"></i></a>
+                <a href="index.html" class="button">Home<i class="fa-solid fa-house-user"></i></a>
             </div>
         </div>
     </section>
