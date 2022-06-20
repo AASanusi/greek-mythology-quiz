@@ -5,7 +5,7 @@
 
 // const variables
 const question = document.getElementById("question");
-const answers = Array.from(document.getElementsByClassName("answer-text"));
+const selections = Array.from(document.getElementsByClassName("selection-text"));
 const displayText = document.getElementById("displayText");
 const scoreText = document.getElementById("score");
 const displayBarProgress = document.getElementById("displayBarProgress");
@@ -18,42 +18,43 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 // Questions and answers for the quiz
-let questions = [{
+let questions = [
+    {
         question: "Who was the ruler of Olympus?",
-        answer1: "Hades",
-        answer2: "Apollo",
-        answer3: "Zeus",
-        answer4: "Hermes",
-        correctAnswer: 3,
+        selection1: "Hades",
+        selection2: "Apollo",
+        selection3: "Zeus",
+        selection4: "Hermes",
+        answer: 3,
     },
     {
         question: "Who was the goddess of beauty and love?",
-        answer1: "Hera",
-        answer2: "Aphrodite",
-        answer3: "Demeter",
-        answer4: "Persephone",
-        correctAnswer: 2,
+        selection1: "Hera",
+        selection2: "Aphrodite",
+        selection3: "Demeter",
+        selection4: "Persephone",
+        answer: 2,
     }, {
         question: "Which demi-god defeated Medusa?",
-        answer1: "Theseus",
-        answer2: "Hercules",
-        answer3: "Dionysus",
-        answer4: "Perseus",
-        correctAnswer: 4,
+        selection1: "Theseus",
+        selection2: "Hercules",
+        selection3: "Dionysus",
+        selection4: "Perseus",
+        answer: 4,
     }, {
         question: "How many years did the war between the Olympians and Titans last for?",
-        answer1: "27 years",
-        answer2: "12 years",
-        answer3: "62 years",
-        answer4: "10 years",
-        correctAnswer: 4,
+        selection1: "27 years",
+        selection2: "12 years",
+        selection3: "62 years",
+        selection4: "10 years",
+        answer: 4,
     }, {
         question: "What was the name of hades three-headed dog called?",
-        answer1: "Cerberus",
-        answer2: "Chimera",
-        answer3: "Hecatoncheires",
-        answer4: "Nemean Lion",
-        correctAnswer: 1,
+        selection1: "Cerberus",
+        selection2: "Chimera",
+        selection3: "Hecatoncheires",
+        selection4: "Nemean Lion",
+        answer: 1,
     }
 ]
 
@@ -85,7 +86,7 @@ getNewQuestion = () => {
         return window.location.assign("/end.html");
     }
 
-    questionCounter++
+    questionCounter++;
     displayText.innerText = `Question ${questionCounter} of ${maxQuestions}`;
     displayBarProgress.style.width = `${(questionCounter/maxQuestions) * 100}%`;
 
@@ -93,7 +94,7 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
 
-    answers.forEach(choice => {
+    selections.forEach(choice => {
         const number = choice.dataset["number"];
         choice.innerText = currentQuestion["choice" + number];
     });
@@ -102,18 +103,24 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
-answers.forEach(choice => {
+selections.forEach(choice => {
     choice.addEventListener("click", e => {
-        if(!acceptingAnswers) return
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset["number"]
-        let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedSelection = e.target;
+        const selectedAnswer = selectedSelection.dataset["number"];
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
         if(classToApply === "correct") {
             incrementScore(scorePoints);
         }
 
-        
+        selectedSelection.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+            selectedSelection.parentElement.classList.remove(classToApply);
+        })
     })
 })
