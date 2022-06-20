@@ -1,3 +1,8 @@
+/* Parts of this project aided from using
+* simplestepcode.com and watching youtube tutorial
+* from Brian Design (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+*/
+
 // const variables
 const question = document.getElementById("question");
 const answers = Array.from(document.getElementsByClassName("answer-text"));
