@@ -1,17 +1,19 @@
-const question =  document.getElementById("question");
-const answers =  Array.from(document.getElementsByClassName("answer-text"));
-const progressText =  document.getElementById("progressText");
-const scoreText =  document.getElementById("score");
-const progressTextFull =  document.getElementById("progressTextFull");
+// const variables
+const question = document.getElementById("question");
+const answers = Array.from(document.getElementsByClassName("answer-text"));
+const displayText = document.getElementById("displayText");
+const scoreText = document.getElementById("score");
+const displayBarProgress = document.getElementById("displayBarProgress");
 
+// let variables for running the game
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let availableQuestion = [];
+let availableQuestions = [];
 
-let questions = [
-    {
+// Questions and answers for the quiz
+let questions = [{
         question: "Who was the ruler of Olympus?",
         answer1: "Hades",
         answer2: "Apollo",
@@ -47,5 +49,19 @@ let questions = [
         answer3: "Hecatoncheires",
         answer4: "Nemean Lion",
         correctAnswer: 1,
-    },
+    }
 ]
+
+const scorePoints = 10;
+const maxQuestions = 5;
+
+// How to write a function taken from W3schools
+
+// Function that keeps score, progression and sets new questions
+
+function startGame() {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+}

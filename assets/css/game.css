@@ -54,7 +54,7 @@ body {
     text-align: center;
 }
 
-#progressBar {
+#displayBar {
     width: 20rem;
     height: 3rem;
     border: 0.2rem solid #008000;
@@ -63,7 +63,7 @@ body {
     overflow: hidden;
 }
 
-#progressBarFull {
+#displayBarProgress {
     height: 100%;
     background: #008000;
     width: 0%;
