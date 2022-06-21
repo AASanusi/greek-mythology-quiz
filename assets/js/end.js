@@ -16,9 +16,9 @@ const maxHighScores = 5;
 totalScore.innerText = mostRecentScore;
 
 /* To allow users to "save" once details have been filled in box,
-* To send scores to highscores and not to automatically refresh,
-* show scores on highscores table
-*/
+ * To send scores to highscores and not to automatically refresh,
+ * show scores on highscores table
+ */
 uname.addEventListener("keyup", () => {
     saveScoreButton.disabled = !uname.value
 });
@@ -33,7 +33,7 @@ saveTotalScore = e => {
 
     highScores.push(score);
 
-    highScores.sort((a,b) => {
+    highScores.sort((a, b) => {
         return b.score - a.score;
     });
 

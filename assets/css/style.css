@@ -140,6 +140,10 @@ input {
     color: #000000;
 }
 
+.button:disabled {
+    cursor: not-allowed;
+}
+
 /* Highscore page styling */
 #highScoresList {
     margin-bottom: 100px;
