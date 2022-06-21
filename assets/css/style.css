@@ -96,7 +96,18 @@ a {
 
 
 /* End page CSS */
+
 .fa-sd-card {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.fa-rotate-right {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.fa-house-user {
     font-size: 2rem;
     margin-left: 1rem;
 }

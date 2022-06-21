@@ -51,7 +51,7 @@ const displayText = document.getElementById("displayText");
 const scoreText = document.getElementById("score");
 const displayBarProgress = document.getElementById("displayBarProgress");
 
-// let variables for running the game
+// variables for running the game
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
@@ -84,7 +84,7 @@ function startGame() {
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem("mostRecentScore", score);
-        return window.location.assign("/end.html");
+        return window.location.assign("end.html");
     }
 
     questionCounter++;
