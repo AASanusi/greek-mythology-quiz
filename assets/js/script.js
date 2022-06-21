@@ -95,9 +95,8 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
 
-    selections.forEach(choice => {
-        const number = choice.dataset["number"];
-        choice.innerText = currentQuestion["choice" + number];
+    selections.forEach((choice, i) => {
+        choice.innerText = currentQuestion[String.fromCharCode(97 +i)];
     });
 
     availableQuestions.splice(questionsIndex, 1);
