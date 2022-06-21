@@ -1,4 +1,4 @@
-/* Parts of this project aided from using
+/* Parts of this project was assisted and inspired by
 * simplestepcode.com and watching youtube tutorial
 * from Brian Design (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 */
