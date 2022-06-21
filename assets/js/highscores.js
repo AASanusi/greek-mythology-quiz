@@ -7,4 +7,9 @@
 const highScoresList = document.getElementById("highScoresList");
 const highScoresFinal = JSON.parse(localStorage.getItem("highScores")) || [];
 
-
+/* Shows the score and details 
+* inputted in box on end page
+*/
+highScoresList.innerHTML = highScores.map(score => {
+    return `<li class="high-score>${score.name} - ${score.score}</li>`
+}).join("");
