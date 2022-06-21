@@ -13,7 +13,7 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 const maxHighScores = 5;
 
-finalScore.innerText = mostRecentScore;
+totalScore.innerText = mostRecentScore;
 
 /* To allow users to "save" once details have been filled in box,
 * To send scores to highscores and not to automatically refresh,
@@ -23,7 +23,7 @@ uname.addEventListener("keyup", () => {
     saveScoreButton.disabled = !uname.value
 });
 
-saveHighScore = e => {
+saveTotalScore = e => {
     e.preventDefault();
 
     const score = {
