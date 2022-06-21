@@ -133,3 +133,9 @@ input {
     margin-bottom: 16px;
 }
 
+#save {
+    font-family: Arvo, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000000;
+}
