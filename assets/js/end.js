@@ -3,7 +3,7 @@
  * from Brian Design (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
  */
 
-// Variables to get elements by Ids and classess
+// Const variables to get elements by Ids and classess
 const uname = document.getElementById("uname");
 const totalScore = document.getElementById("totalScore");
 const saveScoreButton = document.getElementById("saveScoreButton");
