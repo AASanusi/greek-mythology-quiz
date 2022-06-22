@@ -158,6 +158,10 @@ input {
     margin-bottom: 25px;
 }
 
+#homepage {
+    margin-top: 25px;
+}
+
 #highScoresList {
     list-style: none;
 }
