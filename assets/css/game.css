@@ -9,7 +9,6 @@
     border-radius: 10px;
     background: #00A0F4;
     font-size: 2rem;
-    min-width: 80rem;
     color: #ffffff;
 }
 
@@ -68,5 +67,18 @@
 
 /* For small devices - 320px and up */
 @media screen and (min-width: 320px) {
+    #question {
+        letter-spacing: normal;
+        font-size: 1.5rem;
+        padding-top: 50px;
+    }
+}
 
+/* For small devices - 700px and up */
+@media screen and (min-width: 700px) {
+    #question {
+        letter-spacing: normal;
+        font-size: 2.2rem;
+        padding-top: 0px;
+    }
 }
