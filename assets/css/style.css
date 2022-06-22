@@ -29,6 +29,13 @@ h2 {
     color: #00A0F4;
 }
 
+h3 {
+    font-family: Arvo, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #00A0F4;
+}
+
 #header {
     text-align: center;
     font-size: 2.6rem;
@@ -142,9 +149,6 @@ input {
 }
 
 #save {
-    font-family: Arvo, sans-serif;
-    text-align: center;
-    font-size: 1.5rem;
     margin: 15px 0;
     color: #000000;
 }
@@ -173,6 +177,8 @@ input {
 }
 
 /* Media Queries */
+
+/* Homepage and highscore page */
 
 /* For small devices - 320px and up */
 @media screen and (min-width: 320px) {
@@ -215,5 +221,79 @@ input {
     /* h2 on home page */
     #greek {
         font-size: 2.6rem;
+    }
+}
+
+/* End page media queries */
+
+/* For small devices - 320px and up */
+@media screen and (min-width: 320px) {
+
+    /* finish div */
+    #finish {
+        margin-top: 100px;
+    }
+
+    /* finish-text h2 */
+    #finish-text {
+        font-size: 30px;
+    }
+
+     /* finish-text h3 */
+     #save {
+        font-size: 20px;
+    }
+
+    /* finish-text h3 */
+    #uname {
+        width: 60%;
+    }
+}
+
+/* For small devices - 411px and up */
+@media screen and (min-width: 411px) {
+
+     /* finish div */
+     #finish {
+        margin-top: 50px;
+    }
+
+    /* finish-text h2 */
+    #finish-text {
+        font-size: 30px;
+    }
+
+     /* finish-text h3 */
+     #save {
+        font-size: 20px;
+    }
+
+    /* finish-text h3 */
+    #uname {
+        width: 80%;
+    }
+}
+
+/* For medium devices - 700px and up */
+@media screen and (min-width: 700px) {
+
+     /* finish div */
+     #finish {
+        margin-top: 30px;
+    }
+
+    /* finish-text h2 */
+    #finish-text {
+        font-size: 2.2rem;
+    }
+
+     /* finish-text h3 */
+     #save {
+        font-size: 1.5rem;
+    }
+
+    /* finish-text h3 */
+    #uname {
+        width: 100%;
     }
 }
