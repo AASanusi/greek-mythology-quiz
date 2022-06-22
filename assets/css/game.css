@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Oswald&display=swap');
 
-body {
-    color: #00A0F4;
-}
 
 /* Mutltiply choice answers */
 .selection-container {
@@ -42,12 +39,12 @@ body {
 /* Heads up display */
 #hud {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .hud-prefix {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .hud-main-text {
