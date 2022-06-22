@@ -154,8 +154,11 @@ input {
 }
 
 /* Highscore page styling */
+.totalScore {
+    margin-bottom: 25px;
+}
+
 #highScoresList {
-    margin-bottom: 100px;
     list-style: none;
 }
 
