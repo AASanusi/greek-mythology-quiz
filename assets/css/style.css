@@ -240,11 +240,13 @@ input {
     /* finish-text h2 */
     #finish-text {
         font-size: 30px;
+        padding: 0 80px 0 80px;
     }
 
      /* finish-text h3 */
      #save {
         font-size: 20px;
+        padding: 0 80px 0 80px;
     }
 
     /* finish-text h3 */
