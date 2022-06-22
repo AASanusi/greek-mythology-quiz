@@ -67,18 +67,58 @@
 
 /* For small devices - 320px and up */
 @media screen and (min-width: 320px) {
+
+    .container {
+        margin: 0;
+    }
     #question {
         letter-spacing: normal;
         font-size: 1.5rem;
-        padding-top: 50px;
+        padding-top: 30px;
+    }
+
+    .hud-prefix {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #displayBar {
+        width: 10rem;
+        height: 1.5rem;
+    }
+
+    .hud-main-text {
+        font-size: 1.8rem;
     }
 }
 
-/* For small devices - 700px and up */
+/* For medium - large devices - 700px and up */
 @media screen and (min-width: 700px) {
+    .container {
+        margin: 2rem auto;
+    }
+
     #question {
         letter-spacing: normal;
         font-size: 2.2rem;
         padding-top: 0px;
+    }
+
+    .hud-prefix {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #displayBar {
+        width: 20rem;
+        height: 3rem;
+        border: 0.2rem solid #008000;
+        margin-top: .5rem;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .hud-main-text {
+        font-size: 2.2rem;
     }
 }
