@@ -1,7 +1,6 @@
 /* Parts of this project was assisted and inspired by
-* simplestepcode.com and watching youtube tutorial
-* from Brian Design (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
-*/
+ * simplestepcode.com and Brian Design youtube tutorialwatching youtube tutorial
+ */
 
 // Questions and answers for the quiz
 let questions = [
