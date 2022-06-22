@@ -171,3 +171,49 @@ input {
     margin-bottom: 8px;
     color: #B05C00;
 }
+
+/* Media Queries */
+
+/* For small devices - 320px and up */
+@media screen and (min-width: 320px) {
+
+    /* header */
+    #header {
+        font-size: 1.7rem;
+    }
+
+    /* h2 on home page */
+    #greek {
+        letter-spacing: normal;
+        font-size: 130%;
+    }
+}
+
+/* For small devices - 411px and up */
+@media screen and (min-width: 411px) {
+
+    /* header */
+    #header {
+        font-size: 1.9rem;
+    }
+
+    /* h2 on home page */
+    #greek {
+        letter-spacing: normal;
+        font-size: 130%;
+    }
+}
+
+/* For medium devices - 700px and up */
+@media screen and (min-width: 700px) {
+
+    /* header */
+    #header {
+        font-size: 2.6rem;
+    }
+
+    /* h2 on home page */
+    #greek {
+        font-size: 2.6rem;
+    }
+}
