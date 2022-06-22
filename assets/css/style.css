@@ -49,8 +49,16 @@ a {
     width: 100vw;
     height: 80vh;
     max-width: 80rem;
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 2rem;
+}
+
+#game {
+    margin-top: 1rem;
+}
+
+#question {
+    margin-bottom: 1.2rem;
 }
 
 .flex {
