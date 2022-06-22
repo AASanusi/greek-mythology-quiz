@@ -67,7 +67,6 @@
 
 /* For small devices - 320px and up */
 @media screen and (min-width: 320px) {
-
     .container {
         margin: 0;
     }
@@ -87,7 +86,7 @@
         height: 1.5rem;
     }
 
-    .hud-main-text {
+    #score {
         font-size: 1.8rem;
     }
 }
@@ -118,7 +117,7 @@
         overflow: hidden;
     }
 
-    .hud-main-text {
+    #score {
         font-size: 2.2rem;
     }
 }
