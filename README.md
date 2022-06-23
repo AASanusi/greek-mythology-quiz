@@ -16,7 +16,7 @@ HTML and CSS3 technologies were used to creeate the general structure and design
 - [User Experience (UX)](#User-Experience-UX)
    - [User Stories](#User-Stories)
       - [First Time User](#First-Time-User)
-      - [Revisiting User](#Revisiting-User)
+      - [Returning User](#Returning-User)
       - [Consistent User](#Consistent-User)
 
 - [Features](#Features)
@@ -74,4 +74,29 @@ HTML and CSS3 technologies were used to creeate the general structure and design
    - [Content](#Content)
    - [Acknowledgments](#Acknowledgments)
 
+
+## User Experience (UX)
+- ### User Stories
+  - #### First Time User
+    - As a First Time User, I want to understand what the website is about from the main page.
+    - As a First Time User, I want to know the subject matter of the quiz.
+    - As a First Time User, I want the site to be easy to navigate in order to access the questions for the quiz.
+    - As a First Time User, I want to know the amount of questions there is in the quiz.
+    - As a First Time User, I want to know my progression status.
+    - As a First Time User, I want to see my score in real time as I'm going through the quiz.
+    - As a First Time User, I want all the buttons to direct to the correct pages it's intended to take me to.
+    - As a First Time User, I want to know in real time if my answer selection are correct or incorrect.
+    - As a First Time User, I want to be able to save and access my score after completing the quiz.
+    - As a First Time User, I want to be able to restart the game.
+
+   - #### Returning User
+     - As a Returning User, I want to easily find my way to the quiz.
+     - As a Returning User, I want to access the homepage at anytime during the quiz.
+     - As a Returning User, I want to be able to save my most recent score.
+     - As a Returning User, I want to be able to view and compare all my scores.
+
+   - #### Consistent User
+     - As a Consistent User, I want to able to get straight to the quiz.
+     - As a Returning User, I want to access the homepage at anytime during the quiz.
+     - As a Consistent User, I want to be able to access the scores table from the homepage.
 
