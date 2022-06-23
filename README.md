@@ -31,7 +31,7 @@ HTML and CSS3 technologies were used to creeate the general structure and design
 - [Design](#Design)
    - [Typography](#Typography)
    - [Colour Layout](#Colour-Layout)
-   - [Wireframe](#Wireframe)
+   - [Balsamiq Wireframe](#Balsamiq-Wireframe)
 
 - [Technologies Used](#Technologies-Used)
    - [Languages Used](#Languages-Used)
@@ -151,10 +151,19 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 ## Design
   - ### Typography 
-      - The Arvo family is the main font used for the header, questions and all headings across the page. This font gives a Greek aesthic feeling to the elements it was applied on.
+      - The Arvo family font is the main font used for the header, questions and all headings across the page. This font gives a Greek aesthic feeling to the elements it was applied on.
       - Oswald family is the secondary font that was used for the rest of the elements that appeared in the body of the site. Oswald font complemented the Arvo font to give a nice consistent aesthic structure to the page.
-      
+      - Sans serif used as the fallback font in case the Arvo family font doesn't load in some browsers. San serif is the standard font to use as a fallback.
 
+  - ### Colour Layout
+      - The colour idea came from the website [ColorSpace](#https://mycolor.space/), this genrates complementary colours to use on the site.
+      - The colour layout of this site consists of three main colours which are white, blue and light pastel green. The white colour used for the text inside the buttons and header text. The blue to encapsulate the header text, the buttons text, questions, scores text at the bottom of the quiz page and the end point text. The light pastel green was used as the overall background colour of the site. 
+      - There are other colours that features on the site: black for the display progression question text, the actual score text and the message to inform the user to enter details. There's also a brown-reddish colour used for the score details on the highscore page.    
+
+[Screenshot of the colours used from ColorSpace](assets/images/colorspace-screenshot.png)
+
+  - ### Balsamiq Wireframe
+      - Balsamiq wireframe used to create the initial idea of the website layout. This was later developed even further when coding.
 
      
 
