@@ -120,7 +120,11 @@ Each individual feature on this quiz site was designed to make it easy for the u
 ![Screenshot of the homepage](assets/images/homepage-screenshot.png)  
 
   - ### Quiz Page
-      - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+    - The quiz page follows the same colour scheme and aesthics as the home page.
+    - The quiz page consists of the question which is captuted in blue writing and the four answer choices buttons in blue with white writing.
+    - Each answer buttons increases in size and highlights with a shadow of their respective colour when hovered over.
+    - When user clicks one of the button, it will either turn "red" meaning incorrect answer or turn "green" which means answer selected was correct. After each selection incorrect or correct, the page moves on to the next question until reaching the endpoint.
+    - At the bottom the quiz page, there's a display text for amount of questions completed out of the overall questions, progression bar and a scoring meter. 
 
 ![Screenshot of the Quiz Page](assets/images/quiz-page-screenshot.png)  
 
