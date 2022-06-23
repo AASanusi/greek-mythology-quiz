@@ -160,10 +160,18 @@ Each individual feature on this quiz site was designed to make it easy for the u
       - The colour layout of this site consists of three main colours which are white, blue and light pastel green. The white colour used for the text inside the buttons and header text. The blue to encapsulate the header text, the buttons text, questions, scores text at the bottom of the quiz page and the end point text. The light pastel green was used as the overall background colour of the site. 
       - There are other colours that features on the site: black for the display progression question text, the actual score text and the message to inform the user to enter details. There's also a brown-reddish colour used for the score details on the highscore page.    
 
-[Screenshot of the colours used from ColorSpace](assets/images/colorspace-screenshot.png)
+![Screenshot of the colours used from ColorSpace](assets/images/colorspace-screenshot.png)
 
   - ### Balsamiq Wireframe
       - Balsamiq wireframe used to create the initial idea of the website layout. This was later developed even further when coding.
+
+![Screenshot of balsamiq wireframe one](assets/images/balsamiq-screenshot-one.png)
+
+![Screenshot of balsamiq wireframe two](assets/images/balsamiq-screenshot-two.png)
+
+![Screenshot of balsamiq wireframe three](assets/images/balsamiq-screenshot-three.png)
+
+
 
      
 
