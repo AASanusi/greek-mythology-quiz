@@ -142,6 +142,14 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 ![Screenshot of the Highscores Page](assets/images/highscore-screenshot.png)  
 
-  - ### Future Implementation
+- ## Future Implementation
+  - ### Additional questions
+      - To add more questions to the quiz to really challenge the users knowledge. This will also increase the time spent on the quiz providing a more worthy user experience.
+
+  - ### Sharing scores
+      - Provide a button to be able to share scores to social media. This will allow users to boast about their scores online.
+      - Doing this will also bring traction to the site as it will pique the interest of people online.
+
+     
 
 
