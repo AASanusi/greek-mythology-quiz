@@ -69,9 +69,9 @@ HTML and CSS3 technologies were used to creeate the general structure and design
 - [Deployment](#Deployment)
 
 - [Credits](#Credits)
+   - [Media](#Media)
    - [Code](#Code)
    - [Content](#Content)
-   - [Media](#Media)
    - [Acknowledgments](#Acknowledgments)
 
 
