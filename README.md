@@ -108,11 +108,28 @@ Each individual feature on this quiz site was designed to make it easy for the u
     - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
     - The header was also created to be able to be clicked at anytime and will direct user back to the homepage. This was to provide the user the option to be able to go to the homepage at any given time during the game or after.
 
+![Screenshot of the header](assets/images/header-screenshot.png)
 
   - ### Homepage
+    - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+
+![Screenshot of the homepage](assets/images/homepage-screenshot.png)  
+
   - ### Quiz Page
+      - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+
+![Screenshot of the Quiz Page](assets/images/quiz-page-screenshot.png)  
+
   - ### Endpoint
+      - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+
+![Screenshot of the End Page](assets/images/endpoint-screenshot.png)  
+
   - ### Highscores Page
+      - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+
+![Screenshot of the Highscores Page](assets/images/highscore-screenshot.png)  
+
   - ### Future Implementation
 
 
