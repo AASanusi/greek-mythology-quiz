@@ -111,7 +111,11 @@ Each individual feature on this quiz site was designed to make it easy for the u
 ![Screenshot of the header](assets/images/header-screenshot.png)
 
   - ### Homepage
-    - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+    - The homepage has a well balanced colour structure from the header, the messages and the buttons. The colours on the homepage is consistent across the site.
+    - The homepage consists of welcoming messgae that informs the user about the page and urges the user to challenge their knowledge on Greek Mythology.
+    - The homepage also consists of two clickable buttons: Test Yourself! and High Scores button. Both buttons has hover to ensure the user knows which button they are about to click. Both buttons increase in size and highlighed with a shadow of their respective colour when hovered over.
+    - The "Test Yourself!" button takes the user to the quiz page.
+    - The "High Scores" button takes the user to the Highscore page. 
 
 ![Screenshot of the homepage](assets/images/homepage-screenshot.png)  
 
