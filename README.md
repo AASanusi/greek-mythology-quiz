@@ -215,12 +215,29 @@ Each individual feature on this quiz site was designed to make it easy for the u
        - Performance score
 
 
-
  - ### Bugs Encountered And Solution
     - #### Bugs   
        - The answers selection buttons were showing undefined instead of the answer choices.
     - #### Solution   
        - Used 97 to represent the letter "a" to gain access to the currentQuestion.a. Converted 97 + i to a letter. And on the second loop "i" will equal to one, therefore, 97 + i = 98 which will represent the letter "b".
+
+## Deployment
+
+### Using Github Pages to deploy project
+  - Log into your github.
+  - Go to your profile to find your repositories and choose the relevant repository.
+  - On the project repository page, click the settings tab.
+  - Direct your attention to the left hand side tab and scroll down to find the "Pages" option and click it.
+  - On the "Github Pages" page, scroll down and under source change dropdown to "main' and click save.
+  - Pop up box appears with a message and a link of your site about to be deployed.
+  - Give it a few minutes then refresh the page to deploy your site and a message saying "Your site is published at https://aasanusi.github.io/greek-mythology-quiz/".
+
+### How to fork Github repository
+
+### How to clone Hithub repository
+
+
+
 
 
 
