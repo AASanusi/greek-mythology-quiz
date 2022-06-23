@@ -58,4 +58,20 @@ HTML and CSS3 technologies were used to creeate the general structure and design
       - [Home](#Home)
       - [Homepage](#Homepage)
 
+   - [Validator Testing](#Validator-Testing)
+     - [HTML](#HTML)
+     - [CSS](#CSS)
+     - [JavaScript](#JavaScript)
+     - [Lighthouse](#Lighthouse-Testing) 
+
+   - [Bugs](#Bugs)
+    
+- [Deployment](#Deployment)
+
+- [Credits](#Credits)
+   - [Code](#Code)
+   - [Content](#Content)
+   - [Media](#Media)
+   - [Acknowledgments](#Acknowledgments)
+
 
