@@ -29,7 +29,6 @@ HTML and CSS3 technologies were used to creeate the general structure and design
       - [Future Implementation](#Future-Implementation)
 
 - [Design](#Design)
-   - [Design Layout](#Design-Layout)
    - [Typography](#Typography)
    - [Colour Layout](#Colour-Layout)
    - [Wireframe](#Wireframe)
@@ -149,6 +148,13 @@ Each individual feature on this quiz site was designed to make it easy for the u
   - ### Sharing scores
       - Provide a button to be able to share scores to social media. This will allow users to boast about their scores online.
       - Doing this will also bring traction to the site as it will pique the interest of people online.
+
+## Design
+  - ### Typography 
+      - The Arvo family is the main font used for the header, questions and all headings across the page. This font gives a Greek aesthic feeling to the elements it was applied on.
+      - Oswald family is the secondary font that was used for the rest of the elements that appeared in the body of the site. Oswald font complemented the Arvo font to give a nice consistent aesthic structure to the page.
+      
+
 
      
 
