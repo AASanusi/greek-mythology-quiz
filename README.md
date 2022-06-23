@@ -48,12 +48,11 @@ HTML and CSS3 technologies were used to creeate the general structure and design
 - [Testing](#Testing)
    - [Manual Testing](#Manual-Testing)
       - [Header](#Header)
-      - [Test Yourself](#TestYourself!)
+      - [Test Yourself!](#TestYourself!)
       - [High Scores](#High-Scores)
       - [Answers](#Answers)
       - [Save](#Save)
-      - [Restart](#Restart)
-      - [Home](#Home)
+      - [Restart!](#Restart!)
       - [Homepage](#Homepage)
 
    - [Validator Testing](#Validator-Testing)
@@ -62,7 +61,7 @@ HTML and CSS3 technologies were used to creeate the general structure and design
      - [JavaScript](#JavaScript)
      - [Lighthouse](#Lighthouse-Testing) 
 
-   - [Bugs Encountered And Solved](#Bugs)
+   - [Bugs Encountered And Solution](#Bugs-Encountered-And-Solution)
     
 - [Deployment](#Deployment)
 
@@ -196,6 +195,36 @@ Each individual feature on this quiz site was designed to make it easy for the u
    - ColorSpace generated complimentary colours to form the colour layout of the website.
 8. #### [Favicon.cc:](https://www.favicon.cc/)
    - Favicon.cc was used to generate the favourite icon for the tab of the website.
+
+## Testing
+
+  - ### Manual Testing
+    - Manual editing was carried on each button and functionality to ensure a smooth running of the quiz. Header links opens to the home page correctly. The buttons all work and open corectly. The answers buttons show incorrect and correct answers. The save button save user details correctly to the high scores page.
+
+ - ### Validator Testing
+    - #### HTML
+       - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+
+    - #### CSS
+       - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+    - #### JavaScript 
+       - 
+
+    - #### Lighthouse Testing
+       - Performance score
+
+
+
+ - ### Bugs Encountered And Solution
+    - #### Bugs   
+       - The answers selection buttons were showing undefined instead of the answer choices.
+    - #### Solution   
+       - Used 97 to represent the letter "a" to gain access to the currentQuestion.a. Converted 97 + i to a letter. And on the second loop "i" will equal to one, therefore, 97 + i = 98 which will represent the letter "b".
+
+
+
+
 
 
 
