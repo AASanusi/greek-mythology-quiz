@@ -100,3 +100,19 @@ HTML and CSS3 technologies were used to creeate the general structure and design
      - As a Returning User, I want to access the homepage at anytime during the quiz.
      - As a Consistent User, I want to be able to access the scores table from the homepage.
 
+## Features
+Each individual feature on this quiz site was designed to make it easy for the users to navigate this site without running into any issues. This site is made up of clickable button that ranges in accessibility to either direct the users to the quiz page, home page, the highscore page and actually answering the questions asked on the quiz page.
+
+- ### Existing Features
+  - ### Header
+    - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+    - The header was also created to be able to be clicked at anytime and will direct user back to the homepage. This was to provide the user the option to be able to go to the homepage at any given time during the game or after.
+
+
+  - ### Homepage
+  - ### Quiz Page
+  - ### Endpoint
+  - ### Highscores Page
+  - ### Future Implementation
+
+
