@@ -137,7 +137,8 @@ Each individual feature on this quiz site was designed to make it easy for the u
 ![Screenshot of the Endpoint Page](assets/images/endpoint-screenshot.png)  
 
   - ### Highscores Page
-      - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+      - The highscores page consists of the scores table heading to inform the user of the leaderboard table.
+      - The scores tables updates automatically when user save their scores. This will show users name alongside with the score.
 
 ![Screenshot of the Highscores Page](assets/images/highscore-screenshot.png)  
 
