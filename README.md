@@ -22,9 +22,9 @@ HTML and CSS3 technologies were used to creeate the general structure and design
 - [Features](#Features)
    - [Existing Features](#Existing-Features)
       - [Header](#Header)
-      - [Homepage](#Homepage)
+      - [Home Page](#Home-Page)
       - [Quiz Page](#Quiz-Page)
-      - [Endpoint](#Endpoint)
+      - [Endpoint Page](#Endpoint-Page)
       - [Highscores Page](#Highscores-Page)
       - [Future Implementation](#Future-Implementation)
 
@@ -106,14 +106,14 @@ Each individual feature on this quiz site was designed to make it easy for the u
 - ### Existing Features
   - ### Header
     - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
-    - The header was also created to be able to be clicked at anytime and will direct user back to the homepage. This was to provide the user the option to be able to go to the homepage at any given time during the game or after.
+    - The header was also created to be able to be clicked at anytime and will direct user back to the home page. This was to provide the user the option to be able to go to the homepage at any given time during the game or after.
 
 ![Screenshot of the header](assets/images/header-screenshot.png)
 
-  - ### Homepage
-    - The homepage has a well balanced colour structure from the header, the messages and the buttons. The colours on the homepage is consistent across the site.
-    - The homepage consists of welcoming messgae that informs the user about the page and urges the user to challenge their knowledge on Greek Mythology.
-    - The homepage also consists of two clickable buttons: Test Yourself! and High Scores button. Both buttons has hover to ensure the user knows which button they are about to click. Both buttons increase in size and highlighed with a shadow of their respective colour when hovered over.
+  - ### Home Page
+    - The home page has a well balanced colour structure from the header, the messages and the buttons. The colours on the homepage is consistent across the site.
+    - The home page consists of welcoming messgae that informs the user about the page and urges the user to challenge their knowledge on Greek Mythology.
+    - The home page also consists of two clickable buttons: Test Yourself! and High Scores button. Both buttons has hover to ensure the user knows which button they are about to click. Both buttons increase in size and highlighed with a shadow of their respective colour when hovered over.
     - The "Test Yourself!" button takes the user to the quiz page.
     - The "High Scores" button takes the user to the Highscore page. 
 
@@ -128,10 +128,13 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 ![Screenshot of the Quiz Page](assets/images/quiz-page-screenshot.png)  
 
-  - ### Endpoint
-      - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
+  - ### Endpoint Page
+      - After completing all questions, user directed to the endpoint page of the quiz. Endpoint is aesthically similar to the other pages.
+      - The endpoint page shows the user's score at the top with a message belwo informing the user they've reached the end of the game.
+      - Below the score and endpoint message is another messgae that informs the user to input their name in the box provided to save their scores. The box has a placeholder to prompt the user to enter their name in the box.
+      - Below the input box, there are 3 buttons: "Save" button, "Restart!" button and "Home Page" button. The "Save" button allows the users to save their details and scores which directs them to the High Score page once clicked. "Restart!" button allows user to start quiz over."Home Page" when clicked on will take the user back to the home page.
 
-![Screenshot of the End Page](assets/images/endpoint-screenshot.png)  
+![Screenshot of the Endpoint Page](assets/images/endpoint-screenshot.png)  
 
   - ### Highscores Page
       - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
