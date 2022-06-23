@@ -64,7 +64,7 @@ HTML and CSS3 technologies were used to creeate the general structure and design
      - [JavaScript](#JavaScript)
      - [Lighthouse](#Lighthouse-Testing) 
 
-   - [Bugs](#Bugs)
+   - [Bugs Encountered And Solved](#Bugs)
     
 - [Deployment](#Deployment)
 
