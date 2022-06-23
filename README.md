@@ -236,7 +236,36 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 ### How to clone Hithub repository
 
+## Credit
 
+### Media
+  - No photos were use for this project has most of the website consists of buttons for the quiz.
+
+### Code
+  - [Code Institute](https://codeinstitute.net/) provides template for boilerplate codes.
+  - [W3Schools](https://www.w3schools.com/) aided in forming the basic HTML and CSS code.
+  - [Kinsta](https://kinsta.com/) aided in forming the media queries for this site.
+  - [Simple Steps Code](https://simplestepscode.com/javascript-quiz-tutorial/) helped with forming JavaScrip quiz. Tutorial was used to form some parts of my Javascript structure codes in this project.
+  - [Brian Design Youtube Tuorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY) aided in forming parts of HTML, CSS and JavaScript code and to which was added to mine.
+
+### Content
+  - All headings and questions were written by the developer.
+  - README created by following IDE and Deployment essential video.
+  - Header structure was created by following Love Running walkthrough video.
+
+### Acknowldgement 
+  - ### Fellow Classmates
+       - I would like to thank Jared for always providing me with advice on how to go about the project.
+       - I would like to thank Suzanne for providing resources to help out with my project.
+       - I would like to thank Frankie for providing the instructions and resource on how to create a Favicon.
+
+  - ### Tutor
+       - I 
+       - 
+
+
+  - ### Mentor
+       - 
 
 
 
