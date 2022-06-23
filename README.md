@@ -43,7 +43,6 @@ HTML and CSS3 technologies were used to creeate the general structure and design
       - [Google Fonts](#Google-Fonts)
       - [Font Awesome](#Font-Awesome)
       - [ColorSpace](#ColorSpace)
-      - [Google Fonts](#Google-Fonts)
       - [Favicon.cc](#Favicon.cc)
 
 - [Testing](#Testing)
@@ -163,13 +162,35 @@ Each individual feature on this quiz site was designed to make it easy for the u
 ![Screenshot of the colours used from ColorSpace](assets/images/colorspace-screenshot.png)
 
   - ### Balsamiq Wireframe
-      - Balsamiq wireframe used to create the initial idea of the website layout. This was later developed even further when coding.
+      - Balsamiq wireframe used to create the basic and initial frameworks of the website layout. This was later developed even further when coding.
 
 ![Screenshot of balsamiq wireframe one](assets/images/balsamiq-screenshot-one.png)
 
 ![Screenshot of balsamiq wireframe two](assets/images/balsamiq-screenshot-two.png)
 
 ![Screenshot of balsamiq wireframe three](assets/images/balsamiq-screenshot-three.png)
+
+## Technologies Used
+  - ### Languages Used
+  - ### Frameworks, Libraries And Programs Used
+      1. #### [Balsamiq:](https://balsamiq.com/)
+       - Balsamiq wireframe used to create the basic and initial frameworks of the project to aid the development of the website.
+      2. #### [Git:](https://git-scm.com/)
+       - Git was used in the Gitpod terminal to add, commit and push code to Github.
+      3. #### [Gitpod:](https://www.gitpod.io/)
+       - Gitpod is the Integrated Developer Environment used to code this project.
+      4. #### [Github:](https://github.com/)
+       - Github was used to hold and keep the pushed codes by Git and store projects.
+      5. #### [Google Fonts:](https://fonts.google.com/)
+       - Google fonts was used to import "Arvo" and "Oswald" fonts into CSS and used across the website.
+      6. #### [Font Awesome:](https://fontawesome.com/)
+       - Font Awesome was used to create the icons that can be found on some of the buttons.
+      7. #### [ColorSpace:](https://mycolor.space/)
+       - ColorSpace generated complimentary colours to form the colour layout of the website.
+      8. #### [Favicon.cc:](https://www.favicon.cc/)
+       - Favicon.cc was used to generate the favourite icon for the tab of the website.
+
+       
 
 
 
