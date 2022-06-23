@@ -103,13 +103,13 @@ HTML and CSS3 technologies were used to creeate the general structure and design
 Each individual feature on this quiz site was designed to make it easy for the users to navigate this site without running into any issues. This site is made up of clickable button that ranges in accessibility to either direct the users to the quiz page, home page, the highscore page and actually answering the questions asked on the quiz page.
 
 - ### Existing Features
-  - ### Header
+  - #### Header
     - This consists of the heading of the page which provides details on that the site is. This heading lets the user know that this is a Greek Mythology Quiz site.
     - The header was also created to be able to be clicked at anytime and will direct user back to the home page. This was to provide the user the option to be able to go to the homepage at any given time during the game or after.
 
 ![Screenshot of the header](assets/images/header-screenshot.png)
 
-  - ### Home Page
+  - #### Home Page
     - The home page has a well balanced colour structure from the header, the messages and the buttons. The colours on the homepage is consistent across the site.
     - The home page consists of welcoming messgae that informs the user about the page and urges the user to challenge their knowledge on Greek Mythology.
     - The home page also consists of two clickable buttons: Test Yourself! and High Scores button. Both buttons has hover to ensure the user knows which button they are about to click. Both buttons increase in size and highlighed with a shadow of their respective colour when hovered over.
@@ -118,7 +118,7 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 ![Screenshot of the homepage](assets/images/homepage-screenshot.png)  
 
-  - ### Quiz Page
+  - #### Quiz Page
     - The quiz page follows the same colour scheme and aesthics as the home page.
     - The quiz page consists of the question which is captuted in blue writing and the four answer choices buttons in blue with white writing.
     - Each answer buttons increases in size and highlights with a shadow of their respective colour when hovered over.
@@ -127,7 +127,7 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 ![Screenshot of the Quiz Page](assets/images/quiz-page-screenshot.png)  
 
-  - ### Endpoint Page
+  - #### Endpoint Page
       - After completing all questions, user directed to the endpoint page of the quiz. Endpoint is aesthically similar to the other pages.
       - The endpoint page shows the user's score at the top with a message belwo informing the user they've reached the end of the game.
       - Below the score and endpoint message is another messgae that informs the user to input their name in the box provided to save their scores. The box has a placeholder to prompt the user to enter their name in the box.
@@ -135,17 +135,17 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 ![Screenshot of the Endpoint Page](assets/images/endpoint-screenshot.png)  
 
-  - ### Highscores Page
+  - #### Highscores Page
       - The highscores page consists of the scores table heading to inform the user of the leaderboard table.
       - The scores tables updates automatically when user save their scores. This will show users name alongside with the score.
 
 ![Screenshot of the Highscores Page](assets/images/highscore-screenshot.png)  
 
-- ## Future Implementation
-  - ### Additional questions
+- ### Future Implementation
+  - #### Additional questions
       - To add more questions to the quiz to really challenge the users knowledge. This will also increase the time spent on the quiz providing a more worthy user experience.
 
-  - ### Sharing scores
+  - #### Sharing scores
       - Provide a button to be able to share scores to social media. This will allow users to boast about their scores online.
       - Doing this will also bring traction to the site as it will pique the interest of people online.
 
