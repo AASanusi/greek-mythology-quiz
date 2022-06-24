@@ -253,18 +253,18 @@ Each individual feature on this quiz site was designed to make it easy for the u
   - README created by following IDE and Deployment essential video.
   - Header structure was created by following Love Running walkthrough video.
 
-### Acknowldgement 
-  - ### Fellow Classmates
+### Acknowledgement 
+  - #### Fellow Classmates
        - I would like to thank Jared for always providing me with advice on how to go about the project.
        - I would like to thank Suzanne for providing resources to help out with my project.
        - I would like to thank Frankie for providing the instructions and resource on how to create a Favicon.
 
-  - ### Tutor
-       - I 
-       - 
+  - #### Tutor
+       - I would like to thank Sean for helping me out with forming the options for the answers in my quiz.
+       - I would like to thank Scott for helping me to structure the quiz.
 
 
-  - ### Mentor
+  - #### Mentor
        - 
 
 
