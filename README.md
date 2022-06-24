@@ -265,7 +265,8 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
 
   - #### Mentor
-       - 
+       - I would like to thank my mentor for providing me with the initial idea for the project and providing me resources that helped me build my project.
+       - I would like to thank my mentor for the continuous help and feedback on my project.
 
 
 
