@@ -237,6 +237,14 @@ Each individual feature on this quiz site was designed to make it easy for the u
 ### How to fork Github repository
 
 ### How to clone Hithub repository
+  - Log into your github.
+  - Access the main page of the relevant repository.
+  - Below the settings tab, find and click the green "code" button.
+  - Pop up box appears with a URL to which you copy this URL for the repository. There are options to clone the repositiory using HTTPS, SSH key and Github CLI. Choose the relevant one for you, in this case woould be HTTPS tab.
+  - Click the clipboard beside the URL to open the terminal.
+  - Change the current directory to the location where you want the cloned directory.
+  - Insert "git clone" with the URL you copied above.
+  - Click "Enter" and local clone will be created.
 
 ## Credit
 
@@ -264,7 +272,6 @@ Each individual feature on this quiz site was designed to make it easy for the u
   - #### Tutor
        - I would like to thank Sean for helping me out with forming the options for the answers in my quiz.
        - I would like to thank Scott for helping me to structure the quiz.
-
 
   - #### Mentor
        - I would like to thank my mentor for providing me with the initial idea for the project and providing me resources that helped me build my project.
