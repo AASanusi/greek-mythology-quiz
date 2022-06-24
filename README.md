@@ -234,9 +234,13 @@ Each individual feature on this quiz site was designed to make it easy for the u
   - Pop up box appears with a message and a link of your site about to be deployed.
   - Give it a few minutes then refresh the page to deploy your site and a message saying "Your site is published at https://aasanusi.github.io/greek-mythology-quiz/".
 
-### How to fork Github repository
+### How to Fork a repository
+  - Log into your github.
+  - Proceed to the relevant repository.
+  - Direct your attenttion to the top right corner of the repository page and locate the "Fork" button.
+  - Click the "Fork" button.
 
-### How to clone Hithub repository
+### How to Clone a repository
   - Log into your github.
   - Access the main page of the relevant repository.
   - Below the settings tab, find and click the green "code" button.
