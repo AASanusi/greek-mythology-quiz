@@ -3,8 +3,7 @@
  */
 
 // Questions and answers for the quiz
-let questions = [
-    {
+let questions = [{
         question: "Who was the ruler of Olympus?",
         a: "Hades",
         b: "Apollo",
@@ -95,7 +94,7 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
 
     selections.forEach((choice, i) => {
-        choice.innerText = currentQuestion[String.fromCharCode(97 +i)];
+        choice.innerText = currentQuestion[String.fromCharCode(97 + i)];
     });
 
     availableQuestions.splice(questionsIndex, 1);
@@ -104,7 +103,7 @@ getNewQuestion = () => {
 
 selections.forEach(choice => {
     choice.addEventListener("click", e => {
-        if(!acceptingAnswers) return;
+        if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedSelection = e.target;
@@ -112,7 +111,7 @@ selections.forEach(choice => {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
-        if(classToApply === "correct") {
+        if (classToApply === "correct") {
             incrementScore(scorePoints);
         }
 
@@ -126,7 +125,7 @@ selections.forEach(choice => {
 });
 
 incrementScore = num => {
-    score +=num;
+    score += num;
     scoreText.innerText = score;
 };
 
