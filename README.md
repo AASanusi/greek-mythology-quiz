@@ -222,6 +222,7 @@ Each individual feature on this quiz site was designed to make it easy for the u
        - Used 97 to represent the letter "a" to gain access to the currentQuestion.a. Converted 97 + i to a letter. And on the second loop "i" will equal to one, therefore, 97 + i = 98 which will represent the letter "b".
 
 ### Unfixed Bugs
+All bugs were fixed before the submission of this project.
 
 ## Deployment
 
