@@ -9,7 +9,7 @@ HTML and CSS3 technologies were used to creeate the general structure and design
 
 [View live website here!](https://aasanusi.github.io/greek-mythology-quiz/)
 
-![Screenshot of greek mythology quiz website across all devices](assets/images/initial-screenshot-greek-mythology-quiz-all-devices.png)
+![Screenshot of greek mythology quiz website across all devices](assets/images/screenshot-greek-mythology-all%20devices.png)
 
 
 ## Table of Contents
