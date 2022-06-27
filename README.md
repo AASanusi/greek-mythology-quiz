@@ -251,7 +251,7 @@ All bugs were fixed before the submission of this project.
   - Insert "git clone" with the URL you copied above.
   - Click "Enter" and local clone will be created.
 
-## Credit
+## Credits
 
 ### Media
   - No photos were use for this project has most of the website consists of buttons for the quiz.
