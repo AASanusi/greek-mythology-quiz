@@ -188,6 +188,11 @@ input {
         font-size: 1.7rem;
     }
 
+    .button {
+        width: 30rem;
+
+    }
+
     /* h2 on home page */
     #greek {
         letter-spacing: normal;
@@ -206,8 +211,8 @@ input {
         padding: 0 80px 0 80px;
     }
 
-     /* finish-text h3 */
-     #save {
+    /* finish-text h3 */
+    #save {
         font-size: 20px;
         padding: 0 80px 0 80px;
     }
@@ -226,6 +231,11 @@ input {
         font-size: 1.9rem;
     }
 
+    .button {
+        width: 30rem;
+
+    }
+
     /* h2 on home page */
     #greek {
         letter-spacing: normal;
@@ -233,8 +243,8 @@ input {
         padding: 0 80px 0 80px;
     }
 
-     /* finish div */
-     #finish {
+    /* finish div */
+    #finish {
         margin-top: 50px;
     }
 
@@ -243,8 +253,8 @@ input {
         font-size: 30px;
     }
 
-     /* finish-text h3 */
-     #save {
+    /* finish-text h3 */
+    #save {
         font-size: 20px;
     }
 
@@ -262,14 +272,19 @@ input {
         font-size: 2.6rem;
     }
 
+    .button {
+        width: 20rem;
+
+    }
+
     /* h2 on home page */
     #greek {
         font-size: 2.6rem;
         padding: 0px;
     }
 
-     /* finish div */
-     #finish {
+    /* finish div */
+    #finish {
         margin-top: 30px;
     }
 
@@ -278,8 +293,8 @@ input {
         font-size: 2.2rem;
     }
 
-     /* finish-text h3 */
-     #save {
+    /* finish-text h3 */
+    #save {
         font-size: 1.5rem;
     }
 
