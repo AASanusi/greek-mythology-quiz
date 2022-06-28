@@ -214,7 +214,6 @@ Each individual feature on this quiz site was designed to make it easy for the u
        - 
 
     - #### Lighthouse Testing
-       - Performance score
        ![Screenshot of lighthouse performance score](assets/images/screenshot-of-lighthouse-performance-score.png)
 
  ### Bugs Encountered And Solution:
