@@ -204,9 +204,11 @@ Each individual feature on this quiz site was designed to make it easy for the u
  - ### Validator Testing
     - #### HTML
        - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+       ![Screenshot of W3C validator](assets/images/Screenshot-html-validator.png)
 
     - #### CSS
        - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+       ![Screenshot of Jigsaw validator](assets/images/Screenshot-css-validator.png)
 
     - #### JavaScript 
        - 
