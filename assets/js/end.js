@@ -21,7 +21,7 @@ uname.addEventListener("keyup", () => {
     saveScoreButton.disabled = !uname.value;
 });
 
-saveTotalScore = e => {
+const saveTotalScore = e => {
     e.preventDefault();
 
     const score = {

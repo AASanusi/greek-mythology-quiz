@@ -212,6 +212,9 @@ Each individual feature on this quiz site was designed to make it easy for the u
 
     - #### JavaScript 
        - No errors were returned when passing through the official [(Jshint](https://jshint.com/)
+         - script.js
+         - end.js
+         - highscores.js
 
     - #### Lighthouse Testing
        ![Screenshot of lighthouse performance score](assets/images/screenshot-of-lighthouse-performance-score.png)
