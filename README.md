@@ -277,7 +277,7 @@ All bugs were fixed before the submission of this project.
   - README created by following IDE and Deployment essential video.
   - Header structure was created by following Love Running walkthrough video.
 
-### Acknowledgement 
+### Acknowledgements 
   - #### Fellow Classmates
        - I would like to thank Jared for always providing me with advice on how to go about the project.
        - I would like to thank Suzanne for providing resources to help out with my project.
