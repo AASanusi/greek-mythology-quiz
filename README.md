@@ -211,12 +211,19 @@ Each individual feature on this quiz site was designed to make it easy for the u
        ![Screenshot of Jigsaw validator](assets/images/screenshot-css-validator.png)
 
     - #### JavaScript 
-       - No errors were returned when passing through the official [(Jshint](https://jshint.com/)
+       - No significant errors were returned when passing through the official [(Jshint](https://jshint.com/)
          - script.js
+         ![Screenshot of jshint for script](assets/images/screenshot-jshint-for-script-js.png)
          - end.js
+         
+         The validator says "One unused variable 'saveTotalScore'", but that function is being called from an "onClick" attribute in the HTML.
+         ![Screenshot of jshint for end](assets/images/screenshot-jshint-for-end-js.png)
          - highscores.js
+         ![Screenshot of jshint for highscores](assets/images/screenshot-jshint-for-highscore-js.png)
 
     - #### Lighthouse Testing
+       - Performance score
+
        ![Screenshot of lighthouse performance score](assets/images/screenshot-of-lighthouse-performance-score.png)
 
  ### Bugs Encountered And Solution:
