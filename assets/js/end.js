@@ -10,7 +10,6 @@ const mostRecentScore = localStorage.getItem("mostRecentScore");
 
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
-const maxHighScores = 5;
 
 totalScore.innerText = mostRecentScore;
 
@@ -19,7 +18,7 @@ totalScore.innerText = mostRecentScore;
  * show scores on highscores table
  */
 uname.addEventListener("keyup", () => {
-    saveScoreButton.disabled = !uname.value
+    saveScoreButton.disabled = !uname.value;
 });
 
 saveTotalScore = e => {
@@ -40,4 +39,4 @@ saveTotalScore = e => {
 
     localStorage.setItem("highScores", JSON.stringify(highScores));
     window.location.assign("highscores.html");
-}
+};

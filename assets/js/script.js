@@ -40,7 +40,7 @@ let questions = [{
         d: "Nemean Lion",
         answer: 1,
     }
-]
+];
 
 // const variables
 const question = document.getElementById("question");
@@ -79,7 +79,7 @@ function startGame() {
  * moving throught the questions
  */
 
-getNewQuestion = () => {
+const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem("mostRecentScore", score);
         return window.location.assign("end.html");
@@ -107,7 +107,7 @@ selections.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedSelection = e.target;
-        const selectedAnswer = selectedSelection.dataset["number"];
+        const selectedAnswer = selectedSelection.dataset.number;
 
         let classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
@@ -124,7 +124,7 @@ selections.forEach(choice => {
     });
 });
 
-incrementScore = num => {
+const incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };

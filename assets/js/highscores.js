@@ -10,5 +10,5 @@ const highScoresFinal = JSON.parse(localStorage.getItem("highScores")) || [];
  * inputted in box on end page
  */
 highScoresList.innerHTML = highScoresFinal.map(score => {
-    return `<li class="high-score">${score.name} - ${score.score}</li>`
+    return `<li class="high-score">${score.name} - ${score.score}</li>`;
 }).join("");
